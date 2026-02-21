@@ -39,13 +39,22 @@
 
 // console.log(typeof(appfur))
 
+// a = 105
+// b = 20
+// console.log(a % b)
+
+// console.log(a && b)
+// console.log(typeof(a + b))
 
 
 
 a = 105
 b = 20
 
-// console.log(a % b)
-
-console.log(a && b)
-// console.log(typeof(a + b))
+if (a > b) {
+    console.log("i am a tech bro")
+} else if (a === b) {
+    console.log("running away from tech things");
+} else {
+    console.log("I am a tech man")
+}
